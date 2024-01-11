@@ -14,3 +14,5 @@ a = 8
 // alterando o LET para CONST vc colocara um valor que não poderá ser modificado no decorrer do codigo
 
 const b = 3
+
+// O LET e o VAR podem ser alterados, o const não, por ser justamente uma constante
