@@ -10,3 +10,7 @@ a = 8
 // a = a + 12
 
 // Quando o valor for alterado no decorrer do codigo, o que vai valer é o ultimo Atruibuido, no caso a linha 10
+
+// alterando o LET para CONST vc colocara um valor que não poderá ser modificado no decorrer do codigo
+
+const b = 3
