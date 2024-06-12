@@ -15,3 +15,7 @@ function novo(f, ...params) {
   f.apply(obj, params)
   return obj
 }
+
+const aula3 = novo(Aula, 'Bem Vindo!', 123)
+const aula4 = novo(Aula, 'Até Breve!', 456)
+console.log(aula3, aula4)
