@@ -22,7 +22,8 @@ const escola = [{
     nome: 'Kauã',
     nota: 8.7
   }]
-}]
+}] 
+
 
 const getNotaDoAluno = aluno => aluno.nota
 const getNotasDaTurma = turma => turma.alunos.map(getNotaDoAluno)
