@@ -8,7 +8,7 @@ const escola = [{
     nota: 7.8
   }, {
     nome: 'Agatha',
-    nota: 9.5
+    nota: 9.4
   }]
 }, {
   nome: 'Turma M2',
