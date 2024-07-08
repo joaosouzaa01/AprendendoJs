@@ -9,10 +9,10 @@ exports = null
 console.log(module.exports)
 
 exports = {
-  nome : 'Teste'
+  nome: 'Teste'
 
 }
 
 console.log(module.exports)
 
-module.exports = {publico:true}
+module.exports = { publico: true }
