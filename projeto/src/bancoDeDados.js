@@ -21,7 +21,7 @@ function getProdutos() {
 }
 
 function excluirProdutos(id) {
- const produto = produto[id]
+  const produto = produto[id]
   delete produtos[id]
   return produto
 }
