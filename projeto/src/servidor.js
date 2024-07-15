@@ -25,7 +25,7 @@ app.post('./Produtos', (req, res, next) => {
 
 app.put('./produtos/:id', (req, res, next) => {
   const produto = bancoDeDados.salvarProduto({
-    id:req.params.id,
+    id: req.params.id,
     nome: req.body.nome,
     preco: req.body.preco
   })
