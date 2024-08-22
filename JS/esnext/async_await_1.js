@@ -9,7 +9,9 @@ esperarPor(2000)
   .then(() => console.log('Executando promise 2 ...'))
   .then(() => console.log('Executando promise 3 ...'))
   .then(() => console.log('Executando promise 4 ...'))
-
+  .then(() => console.log('Executando promise 5 ...'))
+  
+  
 function retornarvalor() {
   return new Promise(resolve => {
     setTimeout(() => resolve(10), 5000)
